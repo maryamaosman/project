@@ -1,11 +1,110 @@
-<html>
-    <head>
-        <title>
-            you 
-        </title>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Git & GitHub - By Maryam Osman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Learning Git & GitHub</h1>
+    <p>Cashar aan ku baranayo sida loo isticmaalo Git, GitHub, iyo GitHub Pages</p>
+  </header>
 
-    <body>
-        <h1> hello world</h1>
-    </body>
+  <main>
+    <section class="intro">
+      <h2>Waa Maxay Git?</h2>
+      <p>
+        <strong>Git</strong> waa software kaa caawinaya in aad la socoto isbeddelada
+        aad ku sameyso code-ka (Version Control System). Waxaa uu kuu oggolaanayaa:
+      </p>
+      <ul>
+        <li>Inaad kaydiso noocyo kala duwan oo project-kaaga ah (commits)</li>
+        <li>Inaad dib ugu noqoto version hore haddii wax khaldan yihiin</li>
+        <li>Inaad si fudud ula shaqeyso dadka kale</li>
+      </ul>
+    </section>
+
+    <section class="commands">
+      <h2>Amarrada Muhiimka ah ee Git</h2>
+      <table>
+        <tr>
+          <th>Command</th>
+          <th>Sharaxaad</th>
+        </tr>
+        <tr>
+          <td><code>git init</code></td>
+          <td>Wuxuu sameeyaa repository cusub (ku bilaabaa Git folder-ka).</td>
+        </tr>
+        <tr>
+          <td><code>git add .</code></td>
+          <td>Waxay diiwaangelisaa dhammaan faylasha cusub ee la beddelay si loo commit-gareeyo.</td>
+        </tr>
+        <tr>
+          <td><code>git commit -m "message"</code></td>
+          <td>Waxay kaydisaa isbeddelada adigoo ku lifaaqaya fariin (message).</td>
+        </tr>
+        <tr>
+          <td><code>git branch -M main</code></td>
+          <td>Waxay magacaabeysaa laanta ugu weyn ee mashruuca "main".</td>
+        </tr>
+        <tr>
+          <td><code>git remote add origin &lt;URL&gt;</code></td>
+          <td>Waxay ku xireysaa mashruucaaga GitHub repository-ga.</td>
+        </tr>
+        <tr>
+          <td><code>git push -u origin main</code></td>
+          <td>Waxay code-ka u diraa GitHub repository-ga si uu online u galo.</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="github">
+      <h2>Waa Maxay GitHub?</h2>
+      <p>
+        <strong>GitHub</strong> waa website kuu oggolaanaya inaad kaydiso code-ka Git-ka,
+        la wadaagto, oo aad ku sameyso project-yadaada si online ah.
+      </p>
+      <ul>
+        <li>Waxaad abuurtaa <strong>repository</strong> si aad ugu kaydiso code-ka</li>
+        <li>Waxaad isticmaashaa <code>git push</code> si aad u dirto code-ka GitHub</li>
+        <li>Waxaad arki kartaa code-kaaga meel kasta oo internet ah</li>
+      </ul>
+    </section>
+
+    <section class="pages">
+      <h2>GitHub Pages - Daabacaadda Website-ka</h2>
+      <p>
+        GitHub Pages waxay kuu oggolaanaysaa inaad website-kaaga si bilaash ah u daabacdo.
+        Marka aad sameyso repository, waxaad tagtaa:
+      </p>
+      <ol>
+        <li>Settings → Pages</li>
+        <li>Dooro "Deploy from a branch"</li>
+        <li>Branch = <code>main</code></li>
+        <li>Riix <strong>Save</strong></li>
+      </ol>
+      <p>
+        Kadib dhowr daqiiqo, website-kaaga wuxuu toos uga furmayaa:
+        <code>https://username.github.io/repository/</code>
+      </p>
+    </section>
+
+    <section class="benefits">
+      <h2>Faa’iidooyinka Git & GitHub</h2>
+      <ul>
+        <li>Kaydin iyo ilaalin code</li>
+        <li>La shaqeyn fudud oo kooxeed</li>
+        <li>La socod isbeddelo (version history)</li>
+        <li>Hosting bilaash ah (GitHub Pages)</li>
+        <li>Inaad si xirfad leh u dhisto portfolio</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by <strong>Maryam Osman</strong> | 2025</p>
+  </footer>
+</body>
 </html>
